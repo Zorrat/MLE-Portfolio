@@ -7,10 +7,10 @@ import { GlobalStyles } from "./global";
 
 import ReactGA from "react-ga";
 function App() {
-  useEffect(() => {
-    // Change this below tracking id to your own
-    ReactGA.initialize("UA-199564465-1");
-  });
+  // useEffect(() => {
+  //   // Change this below tracking id to your own
+  //   ReactGA.initialize("UA-199564465-1");
+  // });
   return (
     <ThemeProvider theme={chosenTheme}>
       <>
