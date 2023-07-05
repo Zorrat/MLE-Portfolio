@@ -8,7 +8,7 @@ import animationData from "../../assets/logo/logo-01.json";
 const LogoLoader = () => {
   return (
     <div>
-      <Lottie animationData={animationData} />;
+      <Lottie animationData={animationData} />
     </div>
   );
 };
