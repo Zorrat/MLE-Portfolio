@@ -2,7 +2,7 @@
   "private": false,
   "name": "datasciencefolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://zorrat.github.io/MLE-Portfolio",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
