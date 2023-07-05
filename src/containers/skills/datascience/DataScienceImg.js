@@ -1,5 +1,4 @@
 import React from "react";
-import { useRef, useEffect } from "react";
 import Lottie from "lottie-react";
 import animationData from "./charts.json";
 

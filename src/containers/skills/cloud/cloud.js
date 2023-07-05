@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import Lottie from "lottie-react";
 import animationData from "./database.json";
 // for animated svgs use json file

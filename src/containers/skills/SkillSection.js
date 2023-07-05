@@ -11,13 +11,12 @@ function GetSkillSvg(props) {
   switch (props.fileName) {
     case "DataScienceImg":
       return <DataScienceImg theme={props.theme} />;
-      break;
+
     case "FullStackImg":
       return <FullStackImg theme={props.theme} />;
-      break;
+
     default:
       return <DesignImg theme={props.theme} />;
-      break;
   }
 }
 
