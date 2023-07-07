@@ -1,5 +1,5 @@
 export const blackTheme = {
-  body: "#0b0b11",
+  body: "#0b0b0c",
   text: "#e4dbdb",
   blue: "#e21c23",
   orange: "#33f033",

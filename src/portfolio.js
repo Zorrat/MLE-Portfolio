@@ -90,7 +90,7 @@ const skills = {
         "⚡ Experience in working with Computer Vision using OpenCV and NLP projects.",
         "⚡ Experience with Graph Convolutional neural networks to derive knowledge from interconnected data in unsupervised settings.",
         "⚡ Experience with cleaning,mangling and labeling data from large datasets with tools like pandas and PySpark.",
-        "⚡ Experience with NLP and computer vision tools like SpaCy and OpenCV",
+        "⚡ Experience on NLP and computer vision with tools like SpaCy and OpenCV",
       ],
       softwareSkills: [
         {
