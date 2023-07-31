@@ -20,7 +20,7 @@ const greeting = {
   sub: "Rohan Thorat",
   logo_name: "Rohan Thorat",
   resumeLink:
-    "https://drive.google.com/file/d/12_H5SfsVbbwHk_uZ8fbviAbDFlNMxMCK/view?usp=sharing",
+    "https://drive.google.com/file/d/1HxOsTy6b2zEuLvRc1heTJnttiFnuM5qr/view?usp=sharing",
 };
 
 // home logos
