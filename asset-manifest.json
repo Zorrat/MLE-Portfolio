@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.e13af695.css",
-    "main.js": "./static/js/main.01a14df5.js",
+    "main.js": "./static/js/main.d291848e.js",
     "static/media/facereco.gif": "./static/media/facereco.0d11748cee75561339da.gif",
+    "static/media/btc.gif": "./static/media/btc.127c1b61170e7be20b52.gif",
     "static/media/voice.gif": "./static/media/voice.00b49c6e2ce32cb83dd8.gif",
     "static/media/dbpred.gif": "./static/media/dbpred.b329dd3f4c5747fbd25c.gif",
     "static/media/news.gif": "./static/media/news.1155a247eaf732241bfc.gif",
@@ -11,8 +12,10 @@
     "static/media/examProctor.gif": "./static/media/examProctor.69bac9c208c683422ac3.gif",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.5f2a2f236048660df440.svg",
     "static/media/activation-functions.gif": "./static/media/activation-functions.0a8b05322e299d613aaa.gif",
+    "static/media/llm.gif": "./static/media/llm.219eba6a69d6ca1b3397.gif",
     "static/media/acti.gif": "./static/media/acti.d97cda97ae091b0239e6.gif",
     "static/media/neural.gif": "./static/media/neural.c884d56d5924d386b366.gif",
+    "static/media/BlindMatch.png": "./static/media/BlindMatch.3c553a5ca66443c4e1f7.png",
     "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/fa-solid-900.eot": "./static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
     "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
@@ -52,10 +55,10 @@
     "static/media/python-01.png": "./static/media/python-01.58daf7ab53fd5a7e2bde.png",
     "index.html": "./index.html",
     "main.e13af695.css.map": "./static/css/main.e13af695.css.map",
-    "main.01a14df5.js.map": "./static/js/main.01a14df5.js.map"
+    "main.d291848e.js.map": "./static/js/main.d291848e.js.map"
   },
   "entrypoints": [
     "static/css/main.e13af695.css",
-    "static/js/main.01a14df5.js"
+    "static/js/main.d291848e.js"
   ]
 }
