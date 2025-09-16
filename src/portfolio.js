@@ -6,7 +6,7 @@ const settings = {
 const seo = {
   title: "Rohan Thorat | Portfolio",
   description:
-    "A Data Scientist and SDE who thrives to leverage startups with AI based solutions and a blend of Data Engineering",
+    "A Data Scientist and MLE who thrives to leverage startups with AI based solutions and a blend of Data Engineering",
   og: {
     title: "Rohan Portfolio",
     type: "website",
@@ -20,7 +20,7 @@ const greeting = {
   sub: "Rohan Thorat",
   logo_name: "Rohan Thorat",
   resumeLink:
-    "https://drive.google.com/file/d/1HxOsTy6b2zEuLvRc1heTJnttiFnuM5qr/view?usp=sharing",
+    "https://drive.google.com/file/d/1xu1YzB-eOWY38FbXtnazV8HFbH4rIzsl/view?usp=sharing",
 };
 
 // home logos
@@ -86,11 +86,12 @@ const skills = {
       title: "Data Science and Engineering",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Develop Highly Scalable and Production ready ML models with end to end backend and MlOps development.",
-        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects.",
+        "⚡ Develop Highly Scalable and Production ready ML models with end to end backend and MLOps development.",
+        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects including LayoutLM for document understanding.",
         "⚡ Experience with Graph Convolutional neural networks to derive knowledge from interconnected data in unsupervised settings.",
-        "⚡ Experience with cleaning,mangling and labeling data from large datasets with tools like pandas and PySpark.",
-        "⚡ Experience on NLP and computer vision with tools like SpaCy and OpenCV",
+        "⚡ Experience with cleaning, mangling and labeling data from large datasets with tools like pandas and PySpark.",
+        "⚡ Expertise in NLP for entity matching, document comparison, and key-value pair identification.",
+        "⚡ Implemented RAG systems with vector databases for information retrieval and LLM applications.",
       ],
       softwareSkills: [
         {
@@ -138,10 +139,27 @@ const skills = {
           },
         },
         {
-          skillName: "Web Scraping",
-          fontAwesomeClassname: "skill-icons:selenium",
+          skillName: "Spark",
+          fontAwesomeClassname: "simple-icons:apachespark",
           style: {
             backgroundColor: "transparent",
+            color: "#E25A1C",
+          },
+        },
+        {
+          skillName: "MLFlow",
+          fontAwesomeClassname: "simple-icons:mlflow",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0194E2",
+          },
+        },
+        {
+          skillName: "LangChain",
+          fontAwesomeClassname: "simple-icons:langchain",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],
@@ -151,10 +169,11 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Backend Development with Python, GoLang and NodeJS for deploying highly scalable ML Models.",
-        "⚡ Developing Maintainable and reusable dependency packages with CICD.",
-        "⚡ Full Stack Development.",
-        "⚡ Experience in Domain & Hosting using Netlify, Vercel, Heroku & Hostinger.",
-        "⚡ Fundamental programming skills with understanding of Data Structures and Algorithms.",
+        "⚡ Developing Maintainable and reusable dependency packages with CICD on Bitbucket and Google Artifact Registry.",
+        "⚡ Full Stack Development including ReactJS and Solidity for dApps and blockchain applications.",
+        "⚡ Experience in Domain & Hosting using Netlify, Vercel, Heroku & GCP.",
+        "⚡ Implemented privacy-preserving entity linkage with FHE and parallelized operations using goroutines.",
+        "⚡ Developed ETL pipelines for data processing and analytics with multimodal vector storage.",
       ],
       softwareSkills: [
         {
@@ -162,13 +181,6 @@ const skills = {
           fontAwesomeClassname: "devicon:fastapi",
           style: {
             color: "#CB3837",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
           },
         },
         {
@@ -199,17 +211,24 @@ const skills = {
           },
         },
         {
-          skillName: "BootStrap",
-          fontAwesomeClassname: "logos-bootstrap",
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
           style: {
-            color: "#CC6699",
+            color: "#363636",
           },
         },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "SQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#E34F26",
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "CICD",
+          fontAwesomeClassname: "simple-icons:bitbucket",
+          style: {
+            color: "#0052CC",
           },
         },
       ],
@@ -218,11 +237,12 @@ const skills = {
       title: "Big Data and Cloud",
       fileName: "DesignImg",
       skills: [
-        "⚡ Containerizing applications with Docker in a microservices enviornment",
-        "⚡ Google Kubernetes Engine",
-        "⚡ Apache Kafka, Redis, Rabbit MQ , RPC and GRPC",
-        "⚡ Vector Databases with Weaviate and Qdrant",
-        "⚡ MongoDB database design",
+        "⚡ Containerizing applications with Docker in a microservices environment",
+        "⚡ Google Kubernetes Engine and Confidential Computing Clusters (TEE)",
+        "⚡ Apache Kafka for real-time event-driven architecture",
+        "⚡ Vector Databases with Weaviate, FAISS, and Qdrant for similarity search",
+        "⚡ Database design and optimization with MongoDB and PostgreSQL",
+        "⚡ DevOps practices with Terraform, Kubernetes, and CICD pipelines",
       ],
       softwareSkills: [
         {
@@ -233,7 +253,7 @@ const skills = {
           },
         },
         {
-          skillName: "Google Kubernetes Engine",
+          skillName: "Kubernetes",
           fontAwesomeClassname: "logos:kubernetes",
           style: {
             color: "#FF7C00",
@@ -267,6 +287,20 @@ const skills = {
             color: "rgb(242, 78, 28)",
           },
         },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "logos:terraform-icon",
+          style: {
+            color: "#7B42BC",
+          },
+        },
+        {
+          skillName: "AirFlow",
+          fontAwesomeClassname: "logos:airflow",
+          style: {
+            color: "#017CEE",
+          },
+        },
       ],
     },
   ],
@@ -283,6 +317,87 @@ const projectsHeader = {
 // colors:[primary,secondary,success,danger,warning,info,light,dark,]
 const projectcards = {
   list: [
+    {
+      title: "Blind Match - Privacy-Preserving Entity Linkage",
+      img_path: "BlindMatch.png",
+      description:
+        "Library for encrypted vector similarity search and data reconciliation with CKKS homomorphic encryption. Optimized entity linkage with Goroutines for parallelized dot product computation.",
+      tags: [
+        {
+          lang: "GoLang",
+          color: "#00ADD8",
+        },
+        {
+          lang: "Goroutines",
+          color: "#820032",
+        },
+        {
+          lang: "FHE CKKS",
+          color: "#00a100",
+        },
+        {
+          lang: "NLP",
+          color: "#ff4b4b",
+        },
+      ],
+      link: "https://github.com/Zorrat/blind-match",
+      code: "https://github.com/Zorrat/blind-match",
+      linkcolor: "white",
+    },
+    {
+      title: "Bitcoin Block Explorer with PostgreSQL",
+      img_path: "btc.gif",
+      description:
+        "Database Design, Modelling and query optimization for On Chain Bitcoin Data to Postgres SQL. Speed Up of Block transactions retrieval with clustered indexes.",
+      tags: [
+        {
+          lang: "PostgreSQL",
+          color: "#336791",
+        },
+        {
+          lang: "ETL",
+          color: "red",
+        },
+        {
+          lang: "Data Architecting",
+          color: "green",
+        },
+        {
+          lang: "Query Optimization",
+          color: "#004782",
+        },
+      ],
+      link: "https://github.com/Zorrat/bitcoin-explorer",
+      code: "https://github.com/Zorrat/bitcoin-explorer",
+      linkcolor: "white",
+    },
+    {
+      title: "LLM and RAG Chatbot with FAISS",
+      img_path: "llm.gif",
+      description:
+        "Deployed Mistral 7B fine-tuned LLM chat bot along with Vector Document store for Wikipedia webpages with FAISS for Information Retrieval.",
+      tags: [
+        {
+          lang: "Weaviate",
+          color: "#004782",
+        },
+        {
+          lang: "FastAPI",
+          color: "#8700b0",
+        },
+        {
+          lang: "LoRA",
+          color: "#c47206",
+        },
+        {
+          lang: "FAISS",
+          color: "#ff4b4b",
+        },
+      ],
+      link: "https://github.com/Zorrat/rag-chatbot",
+      code: "https://github.com/Zorrat/rag-chatbot",
+      linkcolor: "white",
+    },
     {
       title: "Online Exam Proctor and Attendance",
       img_path: "facereco.gif",
@@ -443,34 +558,37 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
+        title: "Researcher",
+        subtitle: "SUNY Buffalo",
+        date: "Jun 2024 - Present",
+        content: [
+          "Developed a privacy-preserving entity linkage library in GoLang, parallelizing dot products operations with goroutines and compressing sparse vectors by 50% via FFT to accelerate FHE-based cosine similarity.",
+          "Conducted workshop on Zero Knowledge Proof of reserves with circom and Snark.js. Developed dApps in ReactJS, Solidity and deployed on GCP for decentralized class activities.",
+          "Built ETL Pipeline for Twitter data stream and multimodal vector storage of over 5 million tweets for co-relation analysis of social movements on financial policies.",
+          "Teaching Assistant for CSE526 Blockchain Development: Conducted lectures, office hours and workshops with over 100 students. Updated legacy solidity codebase and developed grading scripts.",
+        ],
+      },
+      {
+        title: "ML Engineer",
+        subtitle: "MonetaGo Inc. (Remote US)",
+        date: "Oct 2021 - Dec 2023",
+        content: [
+          "Project Lead: Migration of fraud ML microservices to real-time architecture with Kafka pub/sub and multi-processing. Designed and maintained system architecture documents.",
+          "Created and maintained private PyPI repository on Google Artifact Registry, published internal data handling packages; Integrated Bitbucket CICD pipelines.",
+          "Applied Spark UDFs with regex and NLP libraries to normalize vendor names, addresses, and entity identifiers.",
+          "Vertically scaled Document Comparison microservice with OpenMP multiprocessing to optimize complete CPU utilization.",
+          "Developed entity matching NLP model achieving 84% accuracy for reconciling entity names and organizations by curating dataset.",
+          "Built data reconciling/document comparison engine for 8 types of trade documents. Implemented ensemble models DAG-based approach for computing risk score on Invoice Factoring Fraud.",
+        ],
+      },
+      {
         title: "Data Scientist",
-        subtitle: "MonetaGo",
-        date: "Nov 2021 - Jully 2023",
+        subtitle: "MonetaGo Inc.",
+        date: "Jan 2021 - Oct 2021",
         content: [
-          "Developed internal python tools and packaged 📦 them to a private pip repository on google artifact registry and also integrated them into CICD pipelines on bitbucket.",
-          "Parallelized document processing in python with after researching various multi-processing techniques, hence speeding up services upto 7x",
-          "Implemented Internal packages in Cython to speed up functions by upto 2x and main services by 20%",
-          "Trained ML model to match company names and integrate it as part of Data Science pipeline.",
-          "Updated Analytics microservice to use Apache Kafka for migration towards an async real time event driven architecture.",
-        ],
-      },
-      {
-        title: "Junior Data Scientist",
-        subtitle: "MonetaGo",
-        date: "April 2020 - June 2020",
-        content: [
-          "Created Python Microservice to generate financial document comparison reports and perform fraud Analytics and classification.",
-          "Developed a Rule Engine from scratch with fundamental knowledge of data structures. Implemented the rule engine as part of analytics pipeline.",
-        ],
-      },
-      {
-        title: "Data Science Intern",
-        subtitle: "MonetaGo",
-        date: "Nov 2020 - January 2021",
-        content: [
-          "Created and Deployed a Document OCR web api based solution to scan documents and extract spacial and contextual information.",
-          "Developed a Document OCR Python Web app with FastAPI and Azure Form Recogniser with the ability to process documents in the background.",
-          "Researched , Trained and locally Implemented various Graph Neural Networks such as GraphSage and Semi-supervised Graph Convolutional Neural Network for document understanding.",
+          "Developed layout-aware NLP pipelines using LayoutLM; implemented key-value pair identification by combining text embeddings with token-level classification (NER) and spatial relationship modeling.",
+          "Analytics and cleaning of trade document dataset with Plotly Dash, presented KPIs to SMEs and Product Teams.",
+          "Deployed various async APIs to serve internal analytics cron jobs with containerized microservices using Docker and Kubernetes.",
         ],
       },
     ],
@@ -483,16 +601,18 @@ const resumeright = {
       title: ["Education"],
       data: [
         {
-          title: "Bachelor of Engineering in Information Technology",
-          subtitle: "Xavier Institute of Engineering, Mumbai",
-          date: "2016 - 2021",
-          content: ["CGPA: 7.35/10"],
+          title: "Master's of Science, Engineering Science Data Science",
+          subtitle: "University at Buffalo",
+          date: "Jan 2024 - Jun 2025",
+          content: [
+            "Course Work: Statistical Data Mining, Information Retrieval, Machine Learning, Distributed Data Intensive Systems, DB Design, Numerical Mathematics, AI, Statistical Testing, Probability",
+          ],
         },
         {
-          title: "Higher Secondary Certificate [HSC]",
-          subtitle: "JK Knowledge Center, Mumbai",
-          date: "2014 - 2016",
-          content: ["Precentage: 64%"],
+          title: "Bachelor of Engineering in Information Technology",
+          subtitle: "Xavier Institute of Engineering, Mumbai",
+          date: "2021",
+          content: ["CGPA : 7.35"],
         },
       ],
     },
@@ -623,11 +743,11 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Wadala, Mumbai-400037",
+    subtitle: "California",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 9920662317",
+    subtitle: "7163902389",
   },
 };
 

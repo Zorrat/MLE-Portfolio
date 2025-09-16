@@ -29,13 +29,10 @@ export default function Greeting(props) {
                       .typeString("Data Scientist")
                       .pauseFor(1000)
                       .deleteAll()
-                      .typeString("Backend Developer")
-                      .pauseFor(350)
-                      .deleteAll()
                       .typeString("ML Engineer")
                       .pauseFor(350)
                       .deleteAll()
-                      .typeString("Tinkerer and Researcher")
+                      .typeString("Researcher")
                       .pauseFor(350)
                       .start();
                   }}
@@ -51,19 +48,31 @@ export default function Greeting(props) {
               >
                 <div className="entities">
                   A <mark data-entity="noun">Data Scientist</mark> and a
-                  <mark data-entity="noun">SDE</mark> who
-                  <mark data-entity="verb">thrives</mark> to work on end to end
-                  <mark data-entity="noun">Products</mark> and{" "}
-                  <mark data-entity="verb">articulate</mark> creative ideas for{" "}
-                  <mark data-entity="ADJ">real world</mark>
-                  problems in order to build{" "}
-                  <mark data-entity="ADJ">sustainable</mark> and{" "}
-                  <mark data-entity="ADJ">scalable</mark> systems while ensuring
-                  effective
-                  <mark data-entity="skill">communication</mark> and real impact
-                  with
-                  <mark data-entity="skill">Data Engineering</mark> and a dash
-                  of <mark data-entity="skill">Web Development</mark>.
+                  <mark data-entity="noun">MLE</mark> with 3+ years of
+                  experience
+                  <mark data-entity="verb">designing, developing</mark>end toend
+                  ML, NLP and Data Science
+                  <mark data-entity="noun">products</mark>. I have deployed{" "}
+                  <mark data-entity="noun">Fraud detection</mark> and{" "}
+                  <mark data-entity="noun">NLP products</mark> that are in use
+                  by
+                  <mark data-entity="noun">financial institutions</mark> (
+                  <mark data-entity="noun">SWIFT network</mark>,{" "}
+                  <mark data-entity="noun">Banks</mark> and{" "}
+                  <mark data-entity="noun">NBFCs</mark>) and{" "}
+                  <mark data-entity="verb">engineered</mark> real time{" "}
+                  <mark data-entity="ADJ">Big Data</mark> analytics solutions
+                  with <mark data-entity="skill">Spark</mark> and{" "}
+                  <mark data-entity="skill">Kafka</mark>. I{" "}
+                  <mark data-entity="verb">specialize</mark> in{" "}
+                  <mark data-entity="skill">SQL</mark>,{" "}
+                  <mark data-entity="skill">Vector Search</mark>,{" "}
+                  <mark data-entity="skill">LLM tuning</mark>,{" "}
+                  <mark data-entity="skill">data processing</mark> with
+                  expertise in <mark data-entity="ADJ">full stack</mark>{" "}
+                  <mark data-entity="noun">data science products</mark> that
+                  operate under <mark data-entity="ADJ">stringent</mark> data
+                  regulatory compliance.
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
