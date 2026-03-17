@@ -153,7 +153,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs-icon",
           style: {
             color: "#339933",
           },
@@ -164,14 +164,6 @@ const skills = {
           style: {
             backgroundColor: "#000000",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3178C6",
           },
         },
         {
@@ -273,7 +265,7 @@ const skills = {
 const projectsHeader = {
   title: "Projects and Open Source",
   description:
-    "A mix of data science systems, backend engineering, privacy-preserving research, and blockchain or crypto products built in production and academia.",
+    "A mix of recent blockchain and research work alongside earlier ML, computer vision, and full stack projects that I still want represented in the portfolio.",
 };
 
 // Project cards
@@ -440,6 +432,158 @@ const projectcards = {
       ],
       link: "https://github.com/Zorrat/microinsurance-events-converge",
       code: "https://github.com/Zorrat/microinsurance-events-converge",
+      linkcolor: "white",
+    },
+    {
+      title: "Online Exam Proctor and Attendance",
+      img_path: "facereco.gif",
+      description:
+        "AI proctoring tool that marks attendance and detects cheating signals during online examinations.",
+      tags: [
+        {
+          lang: "Python",
+          color: "#004782",
+        },
+        {
+          lang: "FFMPEG",
+          color: "#820032",
+        },
+        {
+          lang: "OpenCV",
+          color: "#00A100",
+        },
+        {
+          lang: "Computer Vision",
+          color: "#FF4B4B",
+        },
+      ],
+      link: "https://github.com/Zorrat/Student-Online-Exam-AntiCheat-Tool",
+      code: "https://github.com/Zorrat/Student-Online-Exam-AntiCheat-Tool",
+      linkcolor: "white",
+    },
+    {
+      title: "Full Stack MERN Social Media",
+      img_path: "mern.png",
+      description:
+        "Full stack social media application built with the MERN stack.",
+      tags: [
+        {
+          lang: "React",
+          color: "blue",
+        },
+        {
+          lang: "NodeJS",
+          color: "red",
+        },
+        {
+          lang: "MongoDB",
+          color: "green",
+        },
+        {
+          lang: "Express",
+          color: "#004782",
+        },
+        {
+          lang: "Full Stack",
+          color: "teal",
+        },
+      ],
+      link:
+        "https://github.com/Zorrat/MERN-SocialMedia/tree/master/react-front",
+      code:
+        "https://github.com/Zorrat/MERN-SocialMedia/tree/master/react-front",
+      linkcolor: "white",
+    },
+    {
+      title: "Image Super Resolution and Image Editor",
+      img_path: "sr.gif",
+      description:
+        "AI-based image supersampling, denoising, and editing app built around classical CV and deep learning workflows.",
+      tags: [
+        {
+          lang: "Python",
+          color: "#004782",
+        },
+        {
+          lang: "TensorFlow",
+          color: "#8700B0",
+        },
+        {
+          lang: "OpenCV",
+          color: "#C47206",
+        },
+        {
+          lang: "Streamlit",
+          color: "#FF4B4B",
+        },
+      ],
+      link: "https://github.com/Zorrat/Image-Denoiser-Supersampling-and-Editor",
+      code: "https://github.com/Zorrat/Image-Denoiser-Supersampling-and-Editor",
+      linkcolor: "white",
+    },
+    {
+      title: "Steganography Tool Python",
+      img_path: "steg.jpg",
+      description:
+        "Pseudo-random video steganography project for hiding messages across images, video, and audio, paired with a published paper and a usable Streamlit interface.",
+      tags: [
+        {
+          lang: "FFMPEG",
+          color: "red",
+        },
+        {
+          lang: "Python",
+          color: "#004782",
+        },
+        {
+          lang: "Cryptography",
+          color: "#C47206",
+        },
+        {
+          lang: "Published Paper",
+          color: "#4257F5",
+        },
+        {
+          lang: "Audio, Video, Image",
+          color: "#FF4B4B",
+        },
+        {
+          lang: "Streamlit",
+          color: "#1DAC64",
+        },
+      ],
+      link:
+        "http://www.ijaresm.com/uploaded_files/document_file/Rohan_S._Thorat,_Mohit_V_._Deshpande_5wwe.pdf",
+      code: "https://github.com/Zorrat/Steganography-Tool",
+      linkcolor: "white",
+    },
+    {
+      title: "Diabetes Prediction Tool",
+      img_path: "dbpred.gif",
+      description:
+        "Desktop ML comparison tool built with PyQt to evaluate machine learning and deep learning approaches for diabetes prediction.",
+      tags: [
+        {
+          lang: "PyQT",
+          color: "red",
+        },
+        {
+          lang: "Machine Learning",
+          color: "#8AA32D",
+        },
+        {
+          lang: "Deep Learning",
+          color: "#289DE0",
+        },
+        {
+          lang: "Algorithm Analysis",
+          color: "#17EE21",
+        },
+      ],
+      link:
+        "https://github.com/Zorrat/Diabetes-Prediction-models-comparison-with-Gui",
+      code:
+        "https://github.com/Zorrat/Diabetes-Prediction-models-comparison-with-Gui",
       linkcolor: "white",
     },
   ],
