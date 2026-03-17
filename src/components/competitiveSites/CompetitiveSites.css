@@ -20,3 +20,7 @@
 .competitive-sites-inline > i:hover {
   color: #645beb;
 }
+
+.competitive-tooltip.bs-tooltip-bottom {
+  margin-top: 8px;
+}

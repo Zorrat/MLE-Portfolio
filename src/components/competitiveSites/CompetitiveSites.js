@@ -11,10 +11,13 @@ class CompetitiveSites extends React.Component {
             return (
               <OverlayTrigger
                 key={logo.siteName}
-                placement={"top"}
+                placement={"bottom"}
                 style={{ marginBottom: "5px" }}
                 overlay={
-                  <Tooltip id={`tooltip-top`}>
+                  <Tooltip
+                    id={`tooltip-${logo.siteName.toLowerCase()}`}
+                    className="competitive-tooltip"
+                  >
                     <strong>{logo.siteName}</strong>
                   </Tooltip>
                 }
@@ -25,12 +28,19 @@ class CompetitiveSites extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClassname}
-                      style={logo.style}
-                      data-inline="false"
-                    ></span>
+                    {logo.fontAwesomeClassname ? (
+                      <i
+                        className={`fab ${logo.fontAwesomeClassname}`}
+                        style={logo.style}
+                      ></i>
+                    ) : (
+                      <span
+                        className="iconify"
+                        data-icon={logo.iconifyClassname}
+                        style={logo.style}
+                        data-inline="false"
+                      ></span>
+                    )}
                   </a>
                 </li>
               </OverlayTrigger>

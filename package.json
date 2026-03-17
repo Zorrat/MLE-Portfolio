@@ -19,7 +19,6 @@
     "chart.js": "^2.9.3",
     "create-react-app": "^5.0.1",
     "fs": "0.0.1-security",
-    "gh-pages": "^5.0.0",
     "graphql": "^14.5.8",
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.7.11",
@@ -45,6 +44,7 @@
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.9",
     "@iconify/react": "^1.1.1",
+    "gh-pages": "^6.3.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "2.0.5"

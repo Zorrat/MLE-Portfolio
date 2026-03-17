@@ -2,11 +2,11 @@ const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
-//SEO Related settings
+// SEO Related settings
 const seo = {
   title: "Rohan Thorat | Portfolio",
   description:
-    "A Data Scientist and MLE who thrives to leverage startups with AI based solutions and a blend of Data Engineering",
+    "Data Scientist, engineer, and researcher building secure ML systems, distributed platforms, and blockchain applications.",
   og: {
     title: "Rohan Portfolio",
     type: "website",
@@ -14,20 +14,20 @@ const seo = {
   },
 };
 
-//Home Page
+// Home Page
 const greeting = {
   title: "Namaste!",
   sub: "Rohan Thorat",
   logo_name: "Rohan Thorat",
   resumeLink:
-    "https://drive.google.com/file/d/1xu1YzB-eOWY38FbXtnazV8HFbH4rIzsl/view?usp=sharing",
+    "https://docs.google.com/document/d/1dqASzQ-zuBGPlqaBLg9YEHoN3tbk7rwH2C1TfB6TlsU/edit?usp=sharing",
 };
 
-// home logos
+// Home logos
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "Github",
+      siteName: "GitHub",
       iconifyClassname: "simple-icons:github",
       style: {
         color: "white",
@@ -40,9 +40,8 @@ const competitiveSites = {
       style: {
         color: "#0077b5",
       },
-      profileLink: "https://www.linkedin.com/in/rohan-thorat-8651551a1/",
+      profileLink: "https://www.linkedin.com/in/thoratrohan/",
     },
-
     {
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
@@ -52,62 +51,29 @@ const competitiveSites = {
       profileLink: "https://www.kaggle.com/zorrat",
     },
     {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
+      siteName: "Medium",
+      fontAwesomeClassname: "fa-medium-m",
       style: {
-        color: "#323754",
+        color: "#ffffff",
       },
-      profileLink: "https://www.hackerearth.com/@rohanthorat1230",
-    },
-
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/gohan_1230?hr_r=1",
-    },
-    {
-      siteName: "HashNode",
-      iconifyClassname: "simple-icons:hashnode",
-      style: {
-        color: "#2962ff",
-      },
-      profileLink: "https://hashnode.com/@Zorrat",
+      profileLink: "https://medium.com/@zorratow",
     },
   ],
 };
 
-//what i do?
+// What I do?
 const skills = {
   data: [
     {
-      title: "Data Science and Engineering",
+      title: "Data Science and Applied ML",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Develop Highly Scalable and Production ready ML models with end to end backend and MLOps development.",
-        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects including LayoutLM for document understanding.",
-        "⚡ Experience with Graph Convolutional neural networks to derive knowledge from interconnected data in unsupervised settings.",
-        "⚡ Experience with cleaning, mangling and labeling data from large datasets with tools like pandas and PySpark.",
-        "⚡ Expertise in NLP for entity matching, document comparison, and key-value pair identification.",
-        "⚡ Implemented RAG systems with vector databases for information retrieval and LLM applications.",
+        "⚡ Build production ML, NLP, regression, and classification systems for fraud detection, entity resolution, and document intelligence.",
+        "⚡ Work with PySpark, LayoutLM, graph analytics, and statistical modeling across financial, document, and blockchain datasets.",
+        "⚡ Design retrieval and LLM workflows with FAISS, Weaviate, Hugging Face, LangChain, and Mistral-based RAG systems.",
+        "⚡ Own the full data science lifecycle from ETL and feature engineering to evaluation, observability, and deployment.",
       ],
       softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch-icon",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -117,29 +83,7 @@ const skills = {
           },
         },
         {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "NumPy",
-          fontAwesomeClassname: "logos-numpy",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "HuggingFace Transformers",
-          fontAwesomeClassname: "fluent-emoji-flat:hugging-face",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Spark",
+          skillName: "Apache Spark",
           fontAwesomeClassname: "simple-icons:apachespark",
           style: {
             backgroundColor: "transparent",
@@ -147,11 +91,17 @@ const skills = {
           },
         },
         {
-          skillName: "MLFlow",
-          fontAwesomeClassname: "simple-icons:mlflow",
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
-            color: "#0194E2",
+          },
+        },
+        {
+          skillName: "Hugging Face",
+          fontAwesomeClassname: "fluent-emoji-flat:hugging-face",
+          style: {
+            backgroundColor: "transparent",
           },
         },
         {
@@ -159,48 +109,46 @@ const skills = {
           fontAwesomeClassname: "simple-icons:langchain",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#0FA958",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos:mongodb-icon",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Weaviate",
+          fontAwesomeClassname: "simple-icons:weaviate",
+          style: {
+            backgroundColor: "transparent",
+            color: "#00B2FF",
           },
         },
       ],
     },
     {
-      title: "Software Development",
+      title: "Engineering and Distributed Systems",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Backend Development with Python, GoLang and NodeJS for deploying highly scalable ML Models.",
-        "⚡ Developing Maintainable and reusable dependency packages with CICD on Bitbucket and Google Artifact Registry.",
-        "⚡ Full Stack Development including ReactJS and Solidity for dApps and blockchain applications.",
-        "⚡ Experience in Domain & Hosting using Netlify, Vercel, Heroku & GCP.",
-        "⚡ Implemented privacy-preserving entity linkage with FHE and parallelized operations using goroutines.",
-        "⚡ Developed ETL pipelines for data processing and analytics with multimodal vector storage.",
+        "⚡ Build backend systems in Go, Python, and Node.js with FastAPI and Gin for secure, low-latency financial and analytics products.",
+        "⚡ Design event-driven microservices with Kafka, CI/CD, Docker, Kubernetes, private package registries, and cloud-native ETL pipelines.",
+        "⚡ Ship data products on GCP, AWS, and Azure with experience across Artifact Registry, CloudWatch, confidential compute, and TEE clusters.",
+        "⚡ Work heavily with PostgreSQL, SQL Server, MongoDB, Snowflake, SOLR, and observability-oriented production systems.",
       ],
       softwareSkills: [
-        {
-          skillName: "FastAPI",
-          fontAwesomeClassname: "devicon:fastapi",
-          style: {
-            color: "#CB3837",
-          },
-        },
         {
           skillName: "GoLang",
           fontAwesomeClassname: "logos:go",
           style: {},
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "FastAPI",
+          fontAwesomeClassname: "devicon:fastapi",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
+            color: "#009688",
           },
         },
         {
@@ -211,6 +159,62 @@ const skills = {
           },
         },
         {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3178C6",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "skill-icons:docker",
+          style: {
+            color: "#2FA3F7",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "logos:kubernetes",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Apache Kafka",
+          fontAwesomeClassname: "skill-icons:kafka",
+          style: {
+            color: "#231F20",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+      ],
+    },
+    {
+      title: "Research, Blockchain and Crypto",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Research privacy-preserving computation, blockchain analytics, and graph-based fraud detection with Columbia University and SUNY Buffalo.",
+        "⚡ Build dApps, smart contracts, and DeFi primitives with Solidity, Chainlink, ZK proofs, and oracle-driven application design.",
+        "⚡ Developed FHE-powered entity linkage, Bitcoin transaction graph analysis, NFT and FT coursework tooling, and full stack blockchain labs.",
+        "⚡ Explore decentralized identity, real world assets, stablecoin infrastructure, and AI-assisted crypto products with on-chain execution flows.",
+      ],
+      softwareSkills: [
+        {
           skillName: "Solidity",
           fontAwesomeClassname: "simple-icons:solidity",
           style: {
@@ -218,87 +222,46 @@ const skills = {
           },
         },
         {
-          skillName: "SQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Ethereum",
+          fontAwesomeClassname: "simple-icons:ethereum",
           style: {
-            color: "#336791",
+            color: "#3C3C3D",
           },
         },
         {
-          skillName: "CICD",
-          fontAwesomeClassname: "simple-icons:bitbucket",
+          skillName: "Bitcoin",
+          fontAwesomeClassname: "simple-icons:bitcoin",
           style: {
-            color: "#0052CC",
-          },
-        },
-      ],
-    },
-    {
-      title: "Big Data and Cloud",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Containerizing applications with Docker in a microservices environment",
-        "⚡ Google Kubernetes Engine and Confidential Computing Clusters (TEE)",
-        "⚡ Apache Kafka for real-time event-driven architecture",
-        "⚡ Vector Databases with Weaviate, FAISS, and Qdrant for similarity search",
-        "⚡ Database design and optimization with MongoDB and PostgreSQL",
-        "⚡ DevOps practices with Terraform, Kubernetes, and CICD pipelines",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Mongo DB",
-          fontAwesomeClassname: "logos:mongodb-icon",
-          style: {
-            color: "#FF2BC2",
+            color: "#F7931A",
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "logos:kubernetes",
+          skillName: "Chainlink",
+          fontAwesomeClassname: "simple-icons:chainlink",
           style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "skill-icons:docker",
-          style: {
-            color: "#2fa3f7",
-          },
-        },
-        {
-          skillName: "Apache Kafka",
-          fontAwesomeClassname: "skill-icons:kafka",
-          style: {
-            color: "rgb(242, 78, 28)",
+            color: "#375BD2",
           },
         },
         {
           skillName: "Google Cloud",
           fontAwesomeClassname: "logos:google-cloud",
           style: {
-            color: "#2fa3f7",
+            color: "#4285F4",
           },
         },
         {
-          skillName: "Redis",
-          fontAwesomeClassname: "logos:redis",
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos:mongodb-icon",
           style: {
-            color: "rgb(242, 78, 28)",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Terraform",
-          fontAwesomeClassname: "logos:terraform-icon",
+          skillName: "Weaviate",
+          fontAwesomeClassname: "simple-icons:weaviate",
           style: {
-            color: "#7B42BC",
-          },
-        },
-        {
-          skillName: "AirFlow",
-          fontAwesomeClassname: "logos:airflow",
-          style: {
-            color: "#017CEE",
+            backgroundColor: "transparent",
+            color: "#00B2FF",
           },
         },
       ],
@@ -308,47 +271,20 @@ const skills = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Projects and Open Source",
   description:
-    "My projects make use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "A mix of data science systems, backend engineering, privacy-preserving research, and blockchain or crypto products built in production and academia.",
 };
 
-//project cards
+// Project cards
 // colors:[primary,secondary,success,danger,warning,info,light,dark,]
 const projectcards = {
   list: [
     {
-      title: "Blind Match - Privacy-Preserving Entity Linkage",
-      img_path: "BlindMatch.png",
-      description:
-        "Library for encrypted vector similarity search and data reconciliation with CKKS homomorphic encryption. Optimized entity linkage with Goroutines for parallelized dot product computation.",
-      tags: [
-        {
-          lang: "GoLang",
-          color: "#00ADD8",
-        },
-        {
-          lang: "Goroutines",
-          color: "#820032",
-        },
-        {
-          lang: "FHE CKKS",
-          color: "#00a100",
-        },
-        {
-          lang: "NLP",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "https://github.com/Zorrat/blind-match",
-      code: "https://github.com/Zorrat/blind-match",
-      linkcolor: "white",
-    },
-    {
       title: "Bitcoin Block Explorer with PostgreSQL",
       img_path: "btc.gif",
       description:
-        "Database Design, Modelling and query optimization for On Chain Bitcoin Data to Postgres SQL. Speed Up of Block transactions retrieval with clustered indexes.",
+        "Designed a PostgreSQL-based explorer for on-chain Bitcoin data with schema constraints, ETL workflows, clustered indexes, and query execution analysis to improve transaction retrieval performance.",
       tags: [
         {
           lang: "PostgreSQL",
@@ -356,198 +292,154 @@ const projectcards = {
         },
         {
           lang: "ETL",
-          color: "red",
+          color: "#D32F2F",
         },
         {
-          lang: "Data Architecting",
-          color: "green",
+          lang: "On-Chain Analytics",
+          color: "#F7931A",
         },
         {
           lang: "Query Optimization",
           color: "#004782",
         },
       ],
-      link: "https://github.com/Zorrat/bitcoin-explorer",
-      code: "https://github.com/Zorrat/bitcoin-explorer",
+      link: "https://github.com/Zorrat/Bitcoin-Block-Explorer",
+      code: "https://github.com/Zorrat/Bitcoin-Block-Explorer",
+      linkcolor: "white",
+    },
+    {
+      title: "Blind Match",
+      img_path: "BlindMatch.png",
+      description:
+        "Built an encrypted entity linkage library using TF-IDF vectors and FHE to support secure multi-party similarity scoring and search without exposing underlying data.",
+      tags: [
+        {
+          lang: "GoLang",
+          color: "#00ADD8",
+        },
+        {
+          lang: "FHE",
+          color: "#00A100",
+        },
+        {
+          lang: "MPC",
+          color: "#7B1FA2",
+        },
+        {
+          lang: "Entity Linkage",
+          color: "#FF4B4B",
+        },
+      ],
+      link: "https://github.com/Zorrat/Fuzzy-Private-Entity-Set-Intersection",
+      code: "https://github.com/Zorrat/Fuzzy-Private-Entity-Set-Intersection",
+      linkcolor: "white",
+    },
+    {
+      title: "NeuroLedger Lending Protocol",
+      img_path: "project-05.png",
+      description:
+        "Created a privacy-preserving DeFi lending protocol that uses zero-knowledge proofs to gate borrower eligibility while keeping risk evaluation off-chain and settlement on-chain.",
+      tags: [
+        {
+          lang: "Chainlink CRE",
+          color: "#375BD2",
+        },
+        {
+          lang: "ZK Proofs",
+          color: "#6A1B9A",
+        },
+        {
+          lang: "DeFi",
+          color: "#0F9D58",
+        },
+        {
+          lang: "Solidity",
+          color: "#363636",
+        },
+      ],
+      link: "https://github.com/Zorrat/zk-private-nl",
+      code: "https://github.com/Zorrat/zk-private-nl",
+      linkcolor: "white",
+    },
+    {
+      title: "MLOps Pipeline AWS",
+      img_path: "project-02.png",
+      description:
+        "Built a reproducible training pipeline for transformer fine-tuning on GLUE CoLA with AWS Glue, Docker, Prometheus, Hydra, and CloudWatch-based observability.",
+      tags: [
+        {
+          lang: "AWS Glue",
+          color: "#FF9900",
+        },
+        {
+          lang: "Docker",
+          color: "#2496ED",
+        },
+        {
+          lang: "Prometheus",
+          color: "#E6522C",
+        },
+        {
+          lang: "CloudWatch",
+          color: "#8C4FFF",
+        },
+      ],
+      link: "https://github.com/Zorrat/ML-Ops-Pipeline-E2E-AWS",
+      code: "https://github.com/Zorrat/ML-Ops-Pipeline-E2E-AWS",
       linkcolor: "white",
     },
     {
       title: "LLM and RAG Chatbot with FAISS",
       img_path: "llm.gif",
       description:
-        "Deployed Mistral 7B fine-tuned LLM chat bot along with Vector Document store for Wikipedia webpages with FAISS for Information Retrieval.",
+        "Implemented a Mistral-7B chatbot backed by vector retrieval over 50 million Wikipedia articles and benchmarked RAG against SOLR and Elasticsearch style keyword pipelines.",
       tags: [
         {
           lang: "Weaviate",
-          color: "#004782",
+          color: "#00B2FF",
         },
         {
           lang: "FastAPI",
-          color: "#8700b0",
+          color: "#009688",
         },
         {
           lang: "LoRA",
-          color: "#c47206",
+          color: "#C47206",
         },
         {
-          lang: "FAISS",
-          color: "#ff4b4b",
+          lang: "RAG",
+          color: "#FF4B4B",
         },
       ],
-      link: "https://github.com/Zorrat/rag-chatbot",
-      code: "https://github.com/Zorrat/rag-chatbot",
+      link: "https://github.com/Zorrat/IR-Project3-Chatbot",
+      code: "https://github.com/Zorrat/IR-Project3-Chatbot",
       linkcolor: "white",
     },
     {
-      title: "Online Exam Proctor and Attendance",
-      img_path: "facereco.gif",
+      title: "CoverFi",
+      img_path: "news.gif",
       description:
-        "AI- Proctor tool that can mark attendance and detect if student is cheating on an online exam.",
+        "Developed a micro-insurance product that uses agentic AI risk signals, Chainlink CRE workflows, and USDC-based on-chain settlements to price and pay out event coverage.",
       tags: [
         {
-          lang: "python",
-          color: "#004782",
+          lang: "Agentic AI",
+          color: "#1A73E8",
         },
         {
-          lang: "FFMPEG",
-          color: "#820032",
+          lang: "Chainlink CRE",
+          color: "#375BD2",
         },
         {
-          lang: "OpenCV",
-          color: "#00a100",
+          lang: "USDC",
+          color: "#2775CA",
         },
         {
-          lang: "Computer Vision",
-          color: "#ff4b4b",
+          lang: "NFT",
+          color: "#8E24AA",
         },
       ],
-      link: "https://github.com/Zorrat/Student-Online-Exam-AntiCheat-Tool",
-      code: "https://github.com/Zorrat/Student-Online-Exam-AntiCheat-Tool",
-      linkcolor: "white",
-    },
-
-    {
-      title: "Full Stack MERN Social Media",
-      img_path: "mern.png",
-      description: "Full Stack Social Media Website with MERN stack.",
-      tags: [
-        {
-          lang: "React",
-          color: "blue",
-        },
-        {
-          lang: "NodeJS",
-          color: "red",
-        },
-        {
-          lang: "MongoDb",
-          color: "green",
-        },
-        {
-          lang: "Express",
-          color: "#004782",
-        },
-        {
-          lang: "FullStack",
-          color: "teal",
-        },
-      ],
-      link:
-        "https://github.com/Zorrat/MERN-SocialMedia/tree/master/react-front",
-      code:
-        "https://github.com/Zorrat/MERN-SocialMedia/tree/master/react-front",
-      linkcolor: "white",
-    },
-    {
-      title: "Image Super Resolution and Image Editor",
-      img_path: "sr.gif",
-      description:
-        "Ai based Image Supersampling, Denoiser and Image editor app.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "Tensorflow",
-          color: "#8700b0",
-        },
-        {
-          lang: "OpenCV",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
-      ],
-      link: "https://github.com/Zorrat/Image-Denoiser-Supersampling-and-Editor",
-      code: "https://github.com/Zorrat/Image-Denoiser-Supersampling-and-Editor",
-      linkcolor: "white",
-    },
-    {
-      title: "Steganography Tool python",
-      img_path: "steg.jpg",
-      description:
-        "Pseudo-Random Video Steganography - An algorithm to pseudo-randomly spread the message bits across the frames of a video to make it difficult for Steganalysis. A tool for applying steganography to images videos and Audio files. ",
-      tags: [
-        {
-          lang: "FFMPEG",
-          color: "red",
-        },
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "Cryptography",
-          color: "#c47206",
-        },
-        {
-          lang: "Published Paper",
-          color: "#4257f5",
-        },
-        {
-          lang: "Audio Video and Image Steganography",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Streamlit",
-          color: "#1dac64",
-        },
-      ],
-      link:
-        "http://www.ijaresm.com/uploaded_files/document_file/Rohan_S._Thorat,_Mohit_V_._Deshpande_5wwe.pdf",
-      code: "https://github.com/Zorrat/Steganography-Tool",
-      linkcolor: "white",
-    },
-    {
-      title: "Diabetes Prediction Tool",
-      img_path: "dbpred.gif",
-      description:
-        "Diabetes Prediction with various ML and DL algorithms in PyQT GUI app.",
-      tags: [
-        {
-          lang: "PyQT",
-          color: "red",
-        },
-        {
-          lang: "Machine Learning",
-          color: "#8aa32d",
-        },
-        {
-          lang: "Deep Learning",
-          color: "#289de0",
-        },
-        {
-          lang: "Algorithm Analysis",
-          color: "#17ee21",
-        },
-      ],
-      link:
-        "https://github.com/Zorrat/Diabetes-Prediction-models-comparison-with-Gui",
-      code:
-        "https://github.com/Zorrat/Diabetes-Prediction-models-comparison-with-Gui",
+      link: "https://github.com/Zorrat/microinsurance-events-converge",
+      code: "https://github.com/Zorrat/microinsurance-events-converge",
       linkcolor: "white",
     },
   ],
@@ -558,37 +450,50 @@ const resumeleft = {
     title: ["Experience"],
     data: [
       {
-        title: "Researcher",
-        subtitle: "SUNY Buffalo",
-        date: "Jun 2024 - Present",
+        title:
+          "Associate Researcher / TA: Blockchain and Cryptocurrencies Analytics",
+        subtitle: "Columbia University, United States",
+        date: "Jan 2026 - Present",
         content: [
-          "Developed a privacy-preserving entity linkage library in GoLang, parallelizing dot products operations with goroutines and compressing sparse vectors by 50% via FFT to accelerate FHE-based cosine similarity.",
-          "Conducted workshop on Zero Knowledge Proof of reserves with circom and Snark.js. Developed dApps in ReactJS, Solidity and deployed on GCP for decentralized class activities.",
-          "Built ETL Pipeline for Twitter data stream and multimodal vector storage of over 5 million tweets for co-relation analysis of social movements on financial policies.",
-          "Teaching Assistant for CSE526 Blockchain Development: Conducted lectures, office hours and workshops with over 100 students. Updated legacy solidity codebase and developed grading scripts.",
+          "Working with Dr. Siddhartha Dalal on decentralized identity, real world assets, and fraud analytics.",
+          "Associate Adjunct Faculty for blockchain, cryptocurrencies, and analytics in the Applied Analytics course.",
+          "Analyzed Bitcoin transaction graphs to study ransomware-related fund flow behavior using graph analytics and network centrality.",
+          "Built a micro-insurance protocol with USDC reserve vaults, soulbound NFT policies, Chainlink CRE workflows, and AI-assisted pricing and claims execution.",
         ],
       },
       {
-        title: "ML Engineer",
-        subtitle: "MonetaGo Inc. (Remote US)",
-        date: "Oct 2021 - Dec 2023",
+        title: "Researcher / TA: UB Blockchain Think Lab / Coursera Mentor",
+        subtitle: "SUNY Buffalo, United States",
+        date: "Aug 2024 - Present",
         content: [
-          "Project Lead: Migration of fraud ML microservices to real-time architecture with Kafka pub/sub and multi-processing. Designed and maintained system architecture documents.",
-          "Created and maintained private PyPI repository on Google Artifact Registry, published internal data handling packages; Integrated Bitbucket CICD pipelines.",
-          "Applied Spark UDFs with regex and NLP libraries to normalize vendor names, addresses, and entity identifiers.",
-          "Vertically scaled Document Comparison microservice with OpenMP multiprocessing to optimize complete CPU utilization.",
-          "Developed entity matching NLP model achieving 84% accuracy for reconciling entity names and organizations by curating dataset.",
-          "Built data reconciling/document comparison engine for 8 types of trade documents. Implemented ensemble models DAG-based approach for computing risk score on Invoice Factoring Fraud.",
+          "Worked with Dr. Ramamurthy on privacy-preserving computation, cryptographic primitives, blockchain application development, information retrieval, and fraud analytics.",
+          "Developed a Go-based privacy-preserving entity linkage library for FHE similarity, private search, and multi-party encryption with Lattigo.",
+          "Modeled blockchain activity as graphs with networkX to compute degree distributions, centrality, and motifs for fraud ring detection.",
+          "Built a Twitter ETL and vector storage pipeline spanning 5 million plus tweets for financial and monetary policy correlation analysis.",
+          "Developed five full stack dApps for coursework and served as TA for CSE526 Blockchain Development, supporting 100 plus students and Ethereum FT or NFT projects.",
         ],
       },
       {
-        title: "Data Scientist",
+        title: "Engineer, Data Science",
+        subtitle: "MonetaGo Inc. (Fintech Product)",
+        date: "Oct 2021 - Oct 2023",
+        content: [
+          "Worked across backend systems and end-to-end data science products, helping deliver a document deduplication solution that secured a 2 million dollar client deal in Singapore.",
+          "Built NLP and tree-based ensemble models for entity reconciliation in trade documents, reaching 84 percent accuracy and improving fraud intent classification.",
+          "Created private PyPI and Artifact Registry workflows and integrated Bitbucket CI/CD pipelines for internal package distribution and deployment.",
+          "Migrated order processing APIs to Go and Gin and deployed fraud detection services on TEE confidential compute clusters.",
+          "Led migration of Python microservices to a real-time Kafka pub/sub architecture with OpenMP multiprocessing for lower latency inference.",
+          "Developed a traceable networkX-based DAG decision model to compute risk buckets across trade workflows.",
+        ],
+      },
+      {
+        title: "Jr. Data Scientist",
         subtitle: "MonetaGo Inc.",
-        date: "Jan 2021 - Oct 2021",
+        date: "Mar 2021 - Oct 2021",
         content: [
-          "Developed layout-aware NLP pipelines using LayoutLM; implemented key-value pair identification by combining text embeddings with token-level classification (NER) and spatial relationship modeling.",
-          "Analytics and cleaning of trade document dataset with Plotly Dash, presented KPIs to SMEs and Product Teams.",
-          "Deployed various async APIs to serve internal analytics cron jobs with containerized microservices using Docker and Kubernetes.",
+          "Applied PySpark UDFs, regex, and NLP tooling to normalize vendor names, addresses, and entity identifiers across large trade datasets.",
+          "Implemented a LayoutLM OCR and NER pipeline to extract invoice key value pairs into MongoDB for downstream analysis.",
+          "Presented KPI dashboards and transaction volume findings to subject matter experts using Plotly Dash.",
         ],
       },
     ],
@@ -601,67 +506,64 @@ const resumeright = {
       title: ["Education"],
       data: [
         {
-          title: "Master's of Science, Engineering Science Data Science",
-          subtitle: "University at Buffalo",
-          date: "Jan 2024 - Jun 2025",
+          title: "Master of Science in Engineering Data Science",
+          subtitle: "University at Buffalo, Buffalo, New York",
+          date: "Jan 2024 - May 2025",
           content: [
-            "Course Work: Statistical Data Mining, Information Retrieval, Machine Learning, Distributed Data Intensive Systems, DB Design, Numerical Mathematics, AI, Statistical Testing, Probability",
+            "Coursework: Statistics, Probability, Information Retrieval, Distributed Data Intensive Systems, Database Design, Agentic AI Systems, Deep Learning, Machine Learning, Data Structures, and Algorithms.",
           ],
-        },
-        {
-          title: "Bachelor of Engineering in Information Technology",
-          subtitle: "Xavier Institute of Engineering, Mumbai",
-          date: "2021",
-          content: ["CGPA : 7.35"],
         },
       ],
     },
     {
-      title: ["Ranks and Achivements"],
+      title: ["Achievements"],
       data: [
         {
-          title: "Ranks",
+          title: "Leadership",
           content: [
-            "1st place at IIT Bombay's Robokart where I created a dynamic day and night cycle for my Unity game.",
-            "2nd place in 12 hr Coding Marathon at Robocon KJSEIT",
+            "HOD of Esports Tournaments at Xavier's SPANDAN, leading a 40 plus member committee across 7 competitive events.",
           ],
         },
         {
-          title: "Achievements",
+          title: "Hackathon Win",
           content: [
-            "HOD for Lan Committe of XIE Spandan 2020",
-            "5⭐ Gold Badges for Python & Problem Solving at HackerRank",
+            "ROBOCON Hackathon Winner for building a Unity-based game with a fully dynamic day-night cycle.",
+          ],
+        },
+        {
+          title: "Competitive Ranking",
+          content: [
+            "Reached Global Elite rank in Counter-Strike: Global Offensive, placing in the top 0.75 percent of players.",
           ],
         },
       ],
     },
-    // {
-    //   title: ["Freelance Work"],
-    //   data: [
-    //     {
-    //       title: "Consultancy Website",
-    //       subtitle: "kidsworldeducationconsultants.com",
-    //       content: [
-    //         "Created and hosted a website for consultancy providers in Kids Education Domain",
-    //       ],
-    //     },
-    //     {
-    //       title: "Portfolio Website",
-    //       subtitle: "pranavphulware.netlify.app",
-    //       content: [
-    //         "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
-    //       ],
-    //     },
-    //   ],
-    // },
   ],
 };
 
-//certificate cards
+// Certificate cards
 const certifications = {
   certifications: [
     {
-      title: "Data Scientist Career Track",
+      title: "Learning With Errors Cryptography Deep Dive",
+      subtitle: "Medium",
+      logo_path: "problem-01.png",
+      certificate_link:
+        "https://medium.com/@zorratow/learning-with-errors-problem-5e59c9fdb806",
+      alt_name: "Medium",
+      color_code: "#000000",
+    },
+    {
+      title: "TensorFlow Developer",
+      subtitle: "DeepLearning.AI / Coursera",
+      logo_path: "coursera-01.png",
+      certificate_link:
+        "https://coursera.org/share/daebf40fa7aee86184511bf0e8b6a722",
+      alt_name: "Coursera",
+      color_code: "#000000",
+    },
+    {
+      title: "Associate Data Scientist",
       subtitle: "DataCamp",
       logo_path: "datacamp-01.png",
       certificate_link:
@@ -670,64 +572,20 @@ const certifications = {
       color_code: "#000000",
     },
     {
-      title: "DeepLearning AI Specialization by Andrew NG",
-      subtitle: "Stanford University",
-      logo_path: "coursera-01.png",
+      title: "Pseudo-Random Video Steganography",
+      subtitle: "Publication",
+      logo_path: "tabcon-01.png",
       certificate_link:
-        "https://coursera.org/share/9e704ecf68bcbaa0fa0dbd974435f7dd",
-      alt_name: "Stanford University",
+        "http://www.ijaresm.com/uploaded_files/document_file/Rohan_S._Thorat,_Mohit_V_._Deshpande_5wwe.pdf",
+      alt_name: "Publication",
       color_code: "#000000",
     },
     {
-      title: "Intermidiate Machine Learning",
-      subtitle: "Kaggle",
-      logo_path: "kaggle.png",
-      certificate_link:
-        "https://www.kaggle.com/learn/certification/zorrat/intermediate-machine-learning",
-      alt_name: "kaggle",
-      color_code: "#000000",
-    },
-    {
-      title: "Tensorflow Developer Specialization",
-      subtitle: "Stanford University",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://coursera.org/share/daebf40fa7aee86184511bf0e8b6a722",
-      alt_name: "Stanford University",
-      color_code: "#000000",
-    },
-    {
-      title: "Problem solving",
-      subtitle: "HackerRank",
-      logo_path: "problem-01.png",
-      certificate_link: "https://www.hackerrank.com/certificates/61f921ecb0b7",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Cisco Certified Networking Associate CCNA",
-      subtitle: "RnS Tigers CCNA Training",
+      title: "Cisco Certified Networking Associate Training",
+      subtitle: "CCNA",
       logo_path: "ccna.png",
       certificate_link: "",
       alt_name: "CCNA",
-      color_code: "#000000",
-    },
-    {
-      title: "Pandas",
-      subtitle: "Kaggle",
-      logo_path: "kaggle.png",
-      certificate_link:
-        "https://www.kaggle.com/learn/certification/zorrat/pandas",
-      alt_name: "kaggle",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Visualization",
-      subtitle: "Kaggle",
-      logo_path: "kaggle.png",
-      certificate_link:
-        "https://www.kaggle.com/learn/certification/zorrat/data-visualization",
-      alt_name: "kaggle",
       color_code: "#000000",
     },
   ],
@@ -739,11 +597,11 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "contact.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with AI/ML, Full-stack, Cloud and Opensource Development.",
+      "Reach out for data science, backend engineering, research collaboration, or blockchain and crypto product work. Email is the fastest way to get me.",
   },
   addressSection: {
     title: "Address",
-    subtitle: "California",
+    subtitle: "New York City, NY",
   },
   phoneSection: {
     title: "Phone Number",
@@ -751,38 +609,32 @@ const contactPageData = {
   },
 };
 
-//contact icons
+// Contact icons
 const socialMediaLinks = [
   {
-    name: "Github",
+    name: "GitHub",
     link: "https://github.com/Zorrat",
-    iconifyClassname: "simple-icons:hackerrank",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    iconifyClassname: "simple-icons:github",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rohan-thorat-8651551a1/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  // {
-  //   name: "YouTube",
-  //   link: "https://www.youtu",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
-  {
-    name: "Gmail",
-    link: "mailto:rohanthorat1230@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    link: "https://www.linkedin.com/in/thoratrohan/",
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/_zorart__/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Email",
+    link: "mailto:rst2152@columbia.edu",
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
+  },
+  {
+    name: "Medium",
+    link: "https://medium.com/@zorratow",
+    fontAwesomeIcon: "fa-medium-m",
+    backgroundColor: "#12100E",
   },
 ];
 

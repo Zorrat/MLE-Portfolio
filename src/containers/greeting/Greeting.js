@@ -27,13 +27,16 @@ export default function Greeting(props) {
                   onInit={(typewriter) => {
                     typewriter
                       .typeString("Data Scientist")
-                      .pauseFor(1000)
+                      .pauseFor(800)
                       .deleteAll()
-                      .typeString("ML Engineer")
-                      .pauseFor(350)
+                      .typeString("Engineer")
+                      .pauseFor(500)
+                      .deleteAll()
+                      .typeString("Blockchain and Crypto")
+                      .pauseFor(500)
                       .deleteAll()
                       .typeString("Researcher")
-                      .pauseFor(350)
+                      .pauseFor(700)
                       .start();
                   }}
                   options={{
@@ -42,39 +45,34 @@ export default function Greeting(props) {
                   }}
                 />
               </h1>
-              <span
+              <div
                 className="greeting-text-span subTitle"
                 style={{ color: theme.text }}
               >
                 <div className="entities">
-                  A <mark data-entity="noun">Data Scientist</mark> and a
-                  <mark data-entity="noun">MLE</mark> with 3+ years of
-                  experience
-                  <mark data-entity="verb">designing, developing</mark>end toend
-                  ML, NLP and Data Science
-                  <mark data-entity="noun">products</mark>. I have deployed{" "}
-                  <mark data-entity="noun">Fraud detection</mark> and{" "}
-                  <mark data-entity="noun">NLP products</mark> that are in use
-                  by
-                  <mark data-entity="noun">financial institutions</mark> (
-                  <mark data-entity="noun">SWIFT network</mark>,{" "}
-                  <mark data-entity="noun">Banks</mark> and{" "}
-                  <mark data-entity="noun">NBFCs</mark>) and{" "}
-                  <mark data-entity="verb">engineered</mark> real time{" "}
-                  <mark data-entity="ADJ">Big Data</mark> analytics solutions
-                  with <mark data-entity="skill">Spark</mark> and{" "}
-                  <mark data-entity="skill">Kafka</mark>. I{" "}
-                  <mark data-entity="verb">specialize</mark> in{" "}
-                  <mark data-entity="skill">SQL</mark>,{" "}
-                  <mark data-entity="skill">Vector Search</mark>,{" "}
-                  <mark data-entity="skill">LLM tuning</mark>,{" "}
-                  <mark data-entity="skill">data processing</mark> with
-                  expertise in <mark data-entity="ADJ">full stack</mark>{" "}
-                  <mark data-entity="noun">data science products</mark> that
-                  operate under <mark data-entity="ADJ">stringent</mark> data
-                  regulatory compliance.
+                  I am a <mark data-entity="noun">Data Scientist</mark>,
+                  <mark data-entity="noun"> Engineer</mark>, and
+                  <mark data-entity="noun"> Researcher</mark> with 3+ years of
+                  experience building secure
+                  <mark data-entity="noun"> backend systems</mark>,
+                  <mark data-entity="noun"> ML products</mark>, and
+                  <mark data-entity="noun"> privacy-preserving protocols</mark>.
+                  My work spans
+                  <mark data-entity="skill"> NLP</mark>,
+                  <mark data-entity="skill"> graph analytics</mark>,
+                  <mark data-entity="skill"> distributed systems</mark>, and
+                  <mark data-entity="skill"> blockchain applications</mark>. I
+                  have built infrastructure used across
+                  <mark data-entity="noun"> SWIFT-connected institutions</mark>,
+                  <mark data-entity="noun"> banks</mark>, and
+                  <mark data-entity="noun"> NBFCs</mark>, while also researching
+                  <mark data-entity="noun"> Bitcoin analytics</mark>,
+                  <mark data-entity="noun"> FHE-based computation</mark>, and
+                  <mark data-entity="noun"> DeFi systems</mark> through work
+                  with <mark data-entity="noun">Columbia University</mark> and
+                  <mark data-entity="noun"> SUNY Buffalo</mark>.
                 </div>
-              </span>
+              </div>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="/contact" />
