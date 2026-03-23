@@ -26,13 +26,13 @@ export default function Greeting(props) {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist")
+                      .typeString("Engineer")
                       .pauseFor(800)
                       .deleteAll()
-                      .typeString("Engineer")
+                      .typeString("Blockchain and Crypto")
                       .pauseFor(500)
                       .deleteAll()
-                      .typeString("Blockchain and Crypto")
+                      .typeString("Data Scientist")
                       .pauseFor(500)
                       .deleteAll()
                       .typeString("Researcher")
